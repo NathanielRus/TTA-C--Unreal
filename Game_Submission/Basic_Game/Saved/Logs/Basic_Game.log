@@ -4417,3 +4417,184 @@ Script Stack (0 frames):
 [2022.03.31-23.16.00:476][744]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.03.31-23.16.00:483][744]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
 [2022.03.31-23.16.00:545][745]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2022.03.31-23.17.06:018][361]MapCheck: New page: Map Check
+[2022.03.31-23.17.06:030][361]LightingResults: New page: Lighting Build - Mar 31, 2022, 11:17:06 AM
+[2022.03.31-23.17.06:037][361]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.03.31-23.17.06:051][361]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.03.31-23.17.06:051][361]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.03.31-23.17.06:053][361]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.03.31-23.17.06:053][361]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8276
+[2022.03.31-23.17.10:604][361]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.03.31-23.17.10:604][361]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.03.31-23.17.10:604][361]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.03.31-23.17.10:604][361]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.03.31-23.17.10:604][361]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.03.31-23.17.10:604][361]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.03.31-23.17.10:730][361]LogEditorBuildUtils: Build time 0:04
+[2022.03.31-23.17.10:740][361]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Green in PCD3D_SM5, Default, SM5 (DDC key hash: D612A7F813D6A10763D0822D854B40750BBE2396), compiling. 
+[2022.03.31-23.17.10:748][361]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Green in PCD3D_SM5, Default, SM5 (DDC key hash: F1B1B03669C6A68CD0BA3F8FC106D107F83B4E06), compiling. 
+[2022.03.31-23.17.10:754][361]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.31-23.17.10:754][361]LogShaderCompilers: Display: Total job queries 487, among them cache hits 297 (60.99%)
+[2022.03.31-23.17.10:754][361]LogShaderCompilers: Display: Tracking 158 distinct input hashes that result in 111 distinct outputs (70.25%)
+[2022.03.31-23.17.10:754][361]LogShaderCompilers: Display: RAM used: 0.51 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.06%
+[2022.03.31-23.17.10:754][361]LogShaderCompilers: Display: ================================================
+[2022.03.31-23.17.10:895][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2022.03.31-23.17.12:570][479]Job is a success!
+[2022.03.31-23.17.12:674][480]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.014s
+[2022.03.31-23.17.12:674][480]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.03.31-23.17.12:674][480]LogVolumetricLightmapImport:      BrickData (all levels) 0.5Mb
+[2022.03.31-23.17.12:674][480]LogVolumetricLightmapImport:      Bricks at depth
+[2022.03.31-23.17.12:674][480]LogVolumetricLightmapImport:          0: 0.8% covering 100.0% of volume
+[2022.03.31-23.17.12:674][480]LogVolumetricLightmapImport:          1: 3.4% covering 6.2% of volume
+[2022.03.31-23.17.12:674][480]LogVolumetricLightmapImport:          2: 95.8% covering 2.8% of volume
+[2022.03.31-23.17.12:674][480]LogVolumetricLightmapImport:      Bricks in each level
+[2022.03.31-23.17.12:674][480]LogVolumetricLightmapImport:          Main 			 119 bricks 	 100.0% (Persistent Level)
+[2022.03.31-23.17.12:829][480]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 1024X1024)
+[2022.03.31-23.17.12:829][480]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 1024X1024)
+[2022.03.31-23.17.12:830][480]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 64X64)
+[2022.03.31-23.17.12:830][480]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 64X64)
+[2022.03.31-23.17.12:830][480]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.31-23.17.12:830][480]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.31-23.17.12:830][480]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2022.03.31-23.17.12:830][480]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
+[2022.03.31-23.17.12:830][480]LogStaticLightingSystem: Main_BuiltData storing lightmap data for 57 meshes in 2 LightmapResourceClusters (28.5 Meshes per cluster).
+[2022.03.31-23.17.12:836][480]Lightmass on DESKTOP-VM5B513: 1.43 sec total, 144 ms importing, 21 ms setup, 242 ms photons, 992 ms processing, 0 ms extra exporting [57/57 mappings]. Threads: 10.9 sec total, 3.26 sec processing.
+[2022.03.31-23.17.12:870][480]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2022.03.31-23.17.12:961][480]LogStaticLightingSystem: Illumination: 6.85 sec (88 ms encoding lightmaps, 48 ms encoding shadowmaps)
+[2022.03.31-23.17.12:961][480]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.03.31-23.17.12:961][480]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.03.31-23.17.13:618][480]DumpUnbuiltLightIteractions
+[2022.03.31-23.17.13:618][480]Lights with unbuilt interactions: 0
+[2022.03.31-23.17.13:618][480]
+[2022.03.31-23.17.13:618][480]Primitives with unbuilt interactions: 0
+[2022.03.31-23.17.13:682][480]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.03.31-23.17.13:716][481]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.03.31-23.17.13:717][481]MapCheck: New page: Main - Mar 31, 2022, 11:17:13 AM
+[2022.03.31-23.17.13:717][481]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.762ms to complete.
+[2022.03.31-23.17.15:591][694]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2022.03.31-23.17.15:610][694]LogSavePackage: Moving '../../../../../../Users/3scor/Documents/GitHub/TTA-C++-Unreal/Game_Submission/Basic_Game/Saved/Main45BC881B430CA2FE29DC30B6E580FC9B.tmp' to '../../../../../../Users/3scor/Documents/GitHub/TTA-C++-Unreal/Game_Submission/Basic_Game/Content/Levels/Main.umap'
+[2022.03.31-23.17.15:618][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../../Users/3scor/Documents/GitHub/TTA-C++-Unreal/Game_Submission/Basic_Game/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.03.31-23.17.15:648][694]LogSavePackage: Moving '../../../../../../Users/3scor/Documents/GitHub/TTA-C++-Unreal/Game_Submission/Basic_Game/Saved/Main_BuiltDataD87BB67240CBF7631319B8A1C3EF3D9A.tmp' to '../../../../../../Users/3scor/Documents/GitHub/TTA-C++-Unreal/Game_Submission/Basic_Game/Content/Levels/Main_BuiltData.uasset'
+[2022.03.31-23.17.15:664][694]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.31-23.17.15:664][694]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.03.31-23.17.15:664][694]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.03.31-23.17.23:564][585]MapCheck: New page: Map Check
+[2022.03.31-23.17.23:582][585]Cmd: MAP REBUILD ALLVISIBLE
+[2022.03.31-23.17.23:582][585]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.03.31-23.17.23:584][585]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=false
+[2022.03.31-23.17.23:592][585]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.03.31-23.17.23:592][585]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.03.31-23.17.23:592][585]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.03.31-23.17.23:626][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.03.31-23.17.23:647][585]LogLevel: Display: Export Material TexCoord Scales took 0.017 seconds.
+[2022.03.31-23.17.23:652][585]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2022.03.31-23.17.23:683][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.03.31-23.17.23:684][585]LightingResults: New page: Lighting Build - Mar 31, 2022, 11:17:23 AM
+[2022.03.31-23.17.23:688][585]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.03.31-23.17.23:694][585]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.03.31-23.17.23:694][585]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.03.31-23.17.23:694][585]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.03.31-23.17.23:695][585]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8276
+[2022.03.31-23.17.28:239][585]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.03.31-23.17.28:239][585]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.03.31-23.17.28:239][585]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.03.31-23.17.28:239][585]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.03.31-23.17.28:239][585]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.03.31-23.17.28:239][585]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.03.31-23.17.28:364][585]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.03.31-23.17.28:364][585]MapCheck: New page: Main - Mar 31, 2022, 11:17:28 AM
+[2022.03.31-23.17.28:364][585]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.538ms to complete.
+[2022.03.31-23.17.28:367][585]LogEditorBuildUtils: Build time 0:04
+[2022.03.31-23.17.28:469][586]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.03.31-23.17.30:074][694]Job is a success!
+[2022.03.31-23.17.30:173][695]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.014s
+[2022.03.31-23.17.30:173][695]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.03.31-23.17.30:173][695]LogVolumetricLightmapImport:      BrickData (all levels) 0.5Mb
+[2022.03.31-23.17.30:173][695]LogVolumetricLightmapImport:      Bricks at depth
+[2022.03.31-23.17.30:173][695]LogVolumetricLightmapImport:          0: 0.8% covering 100.0% of volume
+[2022.03.31-23.17.30:173][695]LogVolumetricLightmapImport:          1: 3.4% covering 6.2% of volume
+[2022.03.31-23.17.30:173][695]LogVolumetricLightmapImport:          2: 95.8% covering 2.8% of volume
+[2022.03.31-23.17.30:173][695]LogVolumetricLightmapImport:      Bricks in each level
+[2022.03.31-23.17.30:173][695]LogVolumetricLightmapImport:          Main 			 119 bricks 	 100.0% (Persistent Level)
+[2022.03.31-23.17.30:318][695]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.03.31-23.17.30:318][695]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.03.31-23.17.30:318][695]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 64X64)
+[2022.03.31-23.17.30:318][695]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 64X64)
+[2022.03.31-23.17.30:318][695]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.31-23.17.30:318][695]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.31-23.17.30:318][695]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2022.03.31-23.17.30:318][695]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X256)
+[2022.03.31-23.17.30:319][695]LogStaticLightingSystem: Main_BuiltData storing lightmap data for 57 meshes in 2 LightmapResourceClusters (28.5 Meshes per cluster).
+[2022.03.31-23.17.30:355][695]Lightmass on DESKTOP-VM5B513: 1.39 sec total, 145 ms importing, 22 ms setup, 233 ms photons, 951 ms processing, 0 ms extra exporting [57/57 mappings]. Threads: 10.4 sec total, 3.13 sec processing.
+[2022.03.31-23.17.30:358][695]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2022.03.31-23.17.30:452][695]LogStaticLightingSystem: Illumination: 6.69 sec (80 ms encoding lightmaps, 45 ms encoding shadowmaps)
+[2022.03.31-23.17.30:452][695]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.03.31-23.17.30:452][695]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.03.31-23.17.31:249][695]DumpUnbuiltLightIteractions
+[2022.03.31-23.17.31:250][695]Lights with unbuilt interactions: 0
+[2022.03.31-23.17.31:250][695]
+[2022.03.31-23.17.31:250][695]Primitives with unbuilt interactions: 0
+[2022.03.31-23.17.31:302][695]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.03.31-23.17.31:326][696]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.03.31-23.17.31:327][696]MapCheck: New page: Main - Mar 31, 2022, 11:17:31 AM
+[2022.03.31-23.17.31:327][696]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.593ms to complete.
+[2022.03.31-23.17.34:293][ 48]MapCheck: New page: Map Check
+[2022.03.31-23.17.34:304][ 48]Cmd: MAP REBUILD ALLVISIBLE
+[2022.03.31-23.17.34:305][ 48]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.03.31-23.17.34:305][ 48]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=false
+[2022.03.31-23.17.34:312][ 48]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.03.31-23.17.34:312][ 48]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.03.31-23.17.34:312][ 48]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.03.31-23.17.34:345][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.03.31-23.17.34:349][ 48]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2022.03.31-23.17.34:353][ 48]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2022.03.31-23.17.34:383][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.03.31-23.17.34:385][ 48]LightingResults: New page: Lighting Build - Mar 31, 2022, 11:17:34 AM
+[2022.03.31-23.17.34:389][ 48]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.03.31-23.17.34:395][ 48]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.03.31-23.17.34:395][ 48]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.03.31-23.17.34:395][ 48]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.03.31-23.17.34:395][ 48]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8276
+[2022.03.31-23.17.38:935][ 48]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.03.31-23.17.38:935][ 48]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.03.31-23.17.38:935][ 48]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.03.31-23.17.38:935][ 48]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.03.31-23.17.38:935][ 48]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.03.31-23.17.38:935][ 48]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.03.31-23.17.39:058][ 48]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.03.31-23.17.39:058][ 48]MapCheck: New page: Main - Mar 31, 2022, 11:17:39 AM
+[2022.03.31-23.17.39:059][ 48]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.641ms to complete.
+[2022.03.31-23.17.39:060][ 48]LogEditorBuildUtils: Build time 0:04
+[2022.03.31-23.17.39:160][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.03.31-23.17.40:656][145]Job is a success!
+[2022.03.31-23.17.40:754][146]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.014s
+[2022.03.31-23.17.40:754][146]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.03.31-23.17.40:754][146]LogVolumetricLightmapImport:      BrickData (all levels) 0.5Mb
+[2022.03.31-23.17.40:754][146]LogVolumetricLightmapImport:      Bricks at depth
+[2022.03.31-23.17.40:754][146]LogVolumetricLightmapImport:          0: 0.8% covering 100.0% of volume
+[2022.03.31-23.17.40:754][146]LogVolumetricLightmapImport:          1: 3.4% covering 6.2% of volume
+[2022.03.31-23.17.40:754][146]LogVolumetricLightmapImport:          2: 95.8% covering 2.8% of volume
+[2022.03.31-23.17.40:754][146]LogVolumetricLightmapImport:      Bricks in each level
+[2022.03.31-23.17.40:754][146]LogVolumetricLightmapImport:          Main 			 119 bricks 	 100.0% (Persistent Level)
+[2022.03.31-23.17.40:899][146]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 1024X1024)
+[2022.03.31-23.17.40:899][146]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 1024X1024)
+[2022.03.31-23.17.40:899][146]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 64X64)
+[2022.03.31-23.17.40:899][146]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 64X64)
+[2022.03.31-23.17.40:899][146]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.31-23.17.40:899][146]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.31-23.17.40:899][146]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2022.03.31-23.17.40:899][146]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X256)
+[2022.03.31-23.17.40:899][146]LogStaticLightingSystem: Main_BuiltData storing lightmap data for 57 meshes in 2 LightmapResourceClusters (28.5 Meshes per cluster).
+[2022.03.31-23.17.40:941][146]Lightmass on DESKTOP-VM5B513: 1.31 sec total, 147 ms importing, 21 ms setup, 228 ms photons, 876 ms processing, 0 ms extra exporting [57/57 mappings]. Threads: 9.62 sec total, 3.18 sec processing.
+[2022.03.31-23.17.40:943][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.03.31-23.17.41:034][146]LogStaticLightingSystem: Illumination: 6.58 sec (80 ms encoding lightmaps, 46 ms encoding shadowmaps)
+[2022.03.31-23.17.41:034][146]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.03.31-23.17.41:034][146]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.03.31-23.17.41:944][146]DumpUnbuiltLightIteractions
+[2022.03.31-23.17.41:944][146]Lights with unbuilt interactions: 0
+[2022.03.31-23.17.41:944][146]
+[2022.03.31-23.17.41:945][146]Primitives with unbuilt interactions: 0
+[2022.03.31-23.17.41:998][146]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.03.31-23.17.42:024][147]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.03.31-23.17.42:024][147]MapCheck: New page: Main - Mar 31, 2022, 11:17:42 AM
+[2022.03.31-23.17.42:025][147]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.639ms to complete.
